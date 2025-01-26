@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import ScrollProvider from "./_scrollProvider";
+import Header from "@/components/shared/header/Header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${outfit.variable}`}>
         <ScrollProvider>
+          <Header />
           {children}
         </ScrollProvider>
       </body>
