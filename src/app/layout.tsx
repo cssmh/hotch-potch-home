@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import ScrollProvider from "./_scrollProvider";
 import Header from "@/components/shared/header/Header";
+import Footer from "@/components/shared/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <ScrollProvider>
           <Header />
           {children}
+          <Footer />
         </ScrollProvider>
       </body>
     </html>
