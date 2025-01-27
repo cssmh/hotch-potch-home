@@ -22,7 +22,7 @@ export default function PackageCard() {
               {card.included.map((inc, idx) => (
                 <p
                   key={idx}
-                  className="text-secondary/70 font-medium link-text"
+                  className="text-secondary/80 font-medium link-text"
                 >
                   {inc}
                 </p>

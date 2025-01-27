@@ -133,10 +133,10 @@
     @apply text-xs lg:text-sm xl:text-base 2xl:text-lg;
   }
   .link-text {
-    @apply text-[10px] lg:text-xs xl:text-sm 2xl:text-base;
+    @apply text-xs xl:text-sm 2xl:text-base;
   }
   .mini-text {
-    @apply text-[12px] lg:text-xs 2xl:text-sm;
+    @apply text-xs 2xl:text-sm;
   }
 }
 

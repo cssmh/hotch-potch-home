@@ -4,7 +4,7 @@ import MixlandContent from "./MixlandContent";
 
 export default function Mixland() {
   return (
-    <div className="section-padding main-container pb-6 md:pb-8 lg:pb-12 xl:pb-14 flex flex-col gap-8 md:gap-10 lg:gap-12 xl:gap-16 ">
+    <div className="section-padding main-container pb-6 md:pb-8 lg:pb-12 xl:pb-14 flex flex-col gap-6 md:gap-10 lg:gap-12 xl:gap-16 ">
       <h2 className="sub-heading text-secondary text-center lg:leading-tight">
         Mixland helps you <br />
         build beautiful website
