@@ -1,6 +1,6 @@
 import Link from "next/link";
 import CustomButton from "./ui/CustomButton";
-import SecondaryButton from "./ui/SecondaryButton";
+import { FaCirclePlay } from "react-icons/fa6";
 
 export default function Banner() {
   return (
@@ -23,7 +23,7 @@ export default function Banner() {
             <Link href={"/"}>
               <CustomButton
                 key={2}
-                textLabel="Get started free"
+                textLabel="Start 14 Days Free Trial"
                 btnBgColor="primary-gradient"
                 borderColor="border border-gradient hover:border-accent"
                 hoverColor1="bg-primary"
@@ -32,7 +32,19 @@ export default function Banner() {
               />
             </Link>
             <Link href={"#"}>
-              <SecondaryButton />
+              <div className="w-full hover:bg-gradient-to-r from-gradient to-gradient-foreground h-10 flex items-center justify-center rounded-md group cursor-pointer">
+                <div className="secondary-btn bg-primary rounded-md flex items-center justify-center">
+                  <button className="flex-center gap-2">
+                    <FaCirclePlay
+                      size={18}
+                      className="text-white group-hover:text-gradient-foreground"
+                    />
+                    <p className="link-text font-semibold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-gradient to-gradient-foreground">
+                      Watch a demo
+                    </p>
+                  </button>
+                </div>
+              </div>
             </Link>
           </div>
         </div>
