@@ -1,3 +1,5 @@
+import Banner from "@/components/Banner";
+
 export default function Home() {
   return (
     <main className="mobile-nav-margin overflow-hidden">
@@ -5,8 +7,7 @@ export default function Home() {
         {/* blur elements */}
         <div className="absolute -right-[100px] -bottom-[100px] w-[200px] h-[200px] rounded-full bg-[#f2369114] blur-3xl hidden md:block" />
         <div className="absolute -left-[150px] bottom-[100px] w-[200px] h-[200px] rounded-full bg-[#ffce7317] blur-3xl hidden md:block" />
-      </div>
-      <div className="border-b border-gray-800">
+        <Banner />
       </div>
     </main>
   );
