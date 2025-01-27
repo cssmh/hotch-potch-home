@@ -15,7 +15,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Hotch-Potch | Home",
-  description: "A seo content writer platform.",
+  description: "A Seo content writer platform.",
 };
 
 export default function RootLayout({
