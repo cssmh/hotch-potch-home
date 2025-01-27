@@ -4,6 +4,7 @@ import Content from "@/components/Content";
 import Tools from "@/components/Tools";
 import Mixland from "@/components/Mixland";
 import CustomerReviews from "@/components/Reviews";
+import Packages from "@/components/Packages";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
           key={2}
           className="flex flex-col md:flex-row-reverse items-center justify-evenly"
           imgSrc="/assets/images/trial/trial-img-2.webp"
-          heading="Create content efficiently and quickly with great AI writing tools"
+          heading="Write what you want to convey through clear, & authentic writing"
           desc="150k+ users. No Credit Card Required. Pro designs and writing at no cost. Start for free. Ai Writer Tool | Generate text for ecom, social media, website, sales, blogs etc."
           imgStyle="-right-0 md:-right-8 lg:-right-12 xl:-right-16 2xl:-right-20 md:h-[350px] lg:h-[450px] xl:h-[530px] 2xl:h-[650px] md:object-contain xl:object-none"
           blobStyle="right-[100px] lg:right-[240px] xl:right-[300px] 2xl:right-[400px] -top-5 md:top-0 2xl:top-10 bg-[#366bf215]"
@@ -40,6 +41,7 @@ export default function Home() {
       </div>
       <Mixland />
       <CustomerReviews />
+      <Packages />
     </main>
   );
 }

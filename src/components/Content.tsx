@@ -42,7 +42,7 @@ const Content: React.FC<ContentProps> = ({
             <Link href={"/"}>
               <CustomButton
                 key={1}
-                textLabel="Get started free"
+                textLabel="Start 14 Days Free Trial"
                 btnBgColor="primary-gradient"
                 borderColor="border border-gradient"
               />

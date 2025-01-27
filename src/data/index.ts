@@ -176,7 +176,7 @@ export const reviewsData = [
   },
 ];
 
-export const pricingData = [
+export const packageData = [
   {
     title: "Starter Plan",
     price: "$29",
