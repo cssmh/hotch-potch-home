@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Company from "@/components/Company";
 import Content from "@/components/Content";
+import Tools from "@/components/Tools";
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
           imgStyle="-right-0 md:-right-8 lg:-right-12 xl:-right-16 2xl:-right-20 md:h-[350px] lg:h-[450px] xl:h-[530px] 2xl:h-[650px] md:object-contain xl:object-none"
           blobStyle="right-[100px] lg:right-[240px] xl:right-[300px] 2xl:right-[400px] -top-5 md:top-0 2xl:top-10 bg-[#366bf215]"
         />
+      </div>
+      <div className="border-b border-gray-800">
+        <Tools />
       </div>
     </main>
   );
