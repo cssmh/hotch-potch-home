@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Company from "@/components/Company";
 import Content from "@/components/Content";
 import Tools from "@/components/Tools";
+import Misland from "@/components/Mixland";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <div className="border-b border-gray-800">
         <Tools />
       </div>
+      <Misland />
     </main>
   );
 }
