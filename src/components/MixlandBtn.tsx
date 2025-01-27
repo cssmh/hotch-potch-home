@@ -10,7 +10,7 @@ export default function MislandBtn() {
             className={`rounded-lg cursor-pointer relative flex justify-start items-center px-6 py-3 ${
               idx === 0
                 ? "bg-gradient-to-r from-gradient to-gradient-foreground"
-                : "bg-transparent border border-[#282a37] hover:border-accent transition-all duration-700 ease-in"
+                : "bg-transparent border border-[#282a37] hover:border-gradient-foreground transition-all duration-700 ease-in"
             }`}
           >
             <span className="text-white">{btn.label}</span>

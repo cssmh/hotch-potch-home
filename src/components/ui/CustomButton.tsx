@@ -21,7 +21,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
 }) => {
   return (
     <div
-      className={`rounded-lg cursor-pointer relative flex justify-center items-center px-6 py-3 transition duration-200 ${btnBgColor} ${textColor} ${borderColor} hover:brightness-110 active:brightness-90`}
+      className={`rounded-lg cursor-pointer relative flex justify-center items-center px-6 py-3 transition duration-200 ${btnBgColor} ${textColor} ${borderColor} hover:bg-gradient-to-l hover:from-[#cb5cff] hover:to-[#5c7fff] duration-300 transition-all active:brightness-90`}
       {...attributes}
     >
       {children ? (
