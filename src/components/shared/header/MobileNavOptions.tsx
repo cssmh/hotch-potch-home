@@ -24,7 +24,6 @@ const MobileNavOptions = () => {
           </div>
         );
       })}
-
       <div className="flex flex-wrap gap-2 pt-5 md:hidden">
         {button.map((btn, i) => (
           <motion.div

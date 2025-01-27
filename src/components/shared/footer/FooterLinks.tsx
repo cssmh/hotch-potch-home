@@ -20,7 +20,6 @@ export default function FooterLinks() {
           ))}
         </div>
       </div>
-
       <div className="max-w-[140px]">
         <p className="link-text text-secondary mb-3 md:mb-4 lg:mb-5 font-semibold">
           Help
@@ -37,7 +36,6 @@ export default function FooterLinks() {
           ))}
         </div>
       </div>
-
       <div className="max-w-[140px]">
         <p className="link-text text-secondary mb-3 md:mb-4 lg:mb-5 font-semibold">
           Resources
@@ -54,7 +52,6 @@ export default function FooterLinks() {
           ))}
         </div>
       </div>
-
       <div className="max-w-[140px]">
         <p className="link-text text-secondary mb-3 md:mb-4 lg:mb-5 font-semibold">
           Links

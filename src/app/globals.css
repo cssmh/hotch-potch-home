@@ -136,7 +136,7 @@
     @apply text-[10px] lg:text-xs xl:text-sm 2xl:text-base;
   }
   .mini-text {
-    @apply text-[10px] lg:text-xs 2xl:text-sm;
+    @apply text-[12px] lg:text-xs 2xl:text-sm;
   }
 }
 

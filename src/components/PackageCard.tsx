@@ -14,7 +14,7 @@ export default function PackageCard() {
               <h2 className="sub-heading text-white">{card.price}</h2>
               <span className="font-outfit desc-text ">/month</span>
             </div>
-            <p className="mini-text text-secondary/70">{card.maxTeam}</p>
+            <p className="w-3/4 mini-text text-secondary/70">{card.maxTeam}</p>
           </div>
           <div className="flex flex-col gap-2 md:gap-3 xl:gap-4">
             <p className="link-text font-bold">{card.subTitle}</p>
