@@ -10,7 +10,12 @@ export default function MislandBtn() {
           <Link href={btn.link}>
             <CustomButton
               textLabel={btn.label}
-              borderColor="border border-gray-400 hover:border-accent transition-all duration-700 ease-in"
+              btnBgColor={idx === 0 ? "primary-gradient" : "bg-transparent"}
+              borderColor={
+                idx === 0
+                  ? "border border-gradient"
+                  : "border border-gray-400 hover:border-accent transition-all duration-700 ease-in"
+              }
             />
           </Link>
         </div>

@@ -9,7 +9,7 @@ export default function MislandContent() {
       </div>
       {/* content */}
       <div className="flex flex-col pb-5 mx-8">
-        <p className="text-secondary/50 link-text font-semibold">
+        <p className="text-secondary/50 link-text font-medium">
           4 Blog Headlines Generated
         </p>
         <div className="w-full h-[1px] bg-[#313342] my-5" />

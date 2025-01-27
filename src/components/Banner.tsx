@@ -26,9 +26,6 @@ export default function Banner() {
                 textLabel="Start 14 Days Free Trial"
                 btnBgColor="primary-gradient"
                 borderColor="border border-gradient hover:border-accent"
-                hoverColor1="bg-primary"
-                hoverColor2="bg-[#FFC947]"
-                hoverColor3="accent-gradient"
               />
             </Link>
             <Link href={"#"}>

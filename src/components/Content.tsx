@@ -45,9 +45,6 @@ const Content: React.FC<ContentProps> = ({
                 textLabel="Get started free"
                 btnBgColor="primary-gradient"
                 borderColor="border border-gradient"
-                hoverColor1="bg-primary"
-                hoverColor2="bg-[#FFC947]"
-                hoverColor3="accent-gradient"
               />
             </Link>
           </div>

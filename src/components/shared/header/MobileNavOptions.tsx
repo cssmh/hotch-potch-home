@@ -41,9 +41,6 @@ const MobileNavOptions = () => {
               textLabel={btn.textLabel}
               btnBgColor={btn.btnBgColor}
               borderColor={btn.borderColor}
-              hoverColor1={btn.hoverColor1}
-              hoverColor2={btn.hoverColor2}
-              hoverColor3={btn.hoverColor3}
             />
           </motion.div>
         ))}
