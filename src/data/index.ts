@@ -90,9 +90,9 @@ export const toolsData = [
   },
 ];
 
-export const misLandBtnData = [
+export const mixLandBtnData = [
   {
-    link: "#",
+    link: "*",
     label: "Blog Headlines",
   },
   {
