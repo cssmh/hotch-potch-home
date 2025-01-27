@@ -1,6 +1,5 @@
 import ToolsCard from "./ToolsCard";
 
-
 export default function Tools() {
   return (
     <div className="section-padding main-container pb-6 md:pb-8 lg:pb-12 xl:pb-14 flex flex-col gap-8 md:gap-10 lg:gap-12 xl:gap-16">

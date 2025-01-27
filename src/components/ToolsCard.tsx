@@ -13,7 +13,6 @@ export default function ToolsCard() {
             height={34}
             className="w-9 h-9"
           />
-
           <div className="flex flex-col lg:gap-2 xl:gap-3 2xl:gap-3.5">
             <p className="desc-text text-nowrap text-secondary">{tool.title}</p>
             <p className="mini-text text-secondary/70">{tool.desc}</p>

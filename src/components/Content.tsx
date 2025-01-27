@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import CustomButton from "./ui/CustomButton";
+import Image from "next/image";
 
 interface ContentProps {
   className?: string;

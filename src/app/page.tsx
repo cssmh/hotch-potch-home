@@ -6,7 +6,7 @@ import Mixland from "@/components/Mixland";
 import CustomerReviews from "@/components/Reviews";
 import Packages from "@/components/Packages";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="mobile-nav-margin overflow-hidden">
       <div className="relative">

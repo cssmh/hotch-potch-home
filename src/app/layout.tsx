@@ -14,7 +14,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Hotch-Potch Home",
+  title: "Hotch-Potch | Home",
   description: "A seo content writer platform.",
 };
 
